@@ -20,7 +20,6 @@ const SearchForm = ({ query }: { query?: string }) => {
                     )
 
                 }
-
                 <Button type="submit" className="search-btn text-white">
                     <Search className="size-5" />
                 </Button>
