@@ -12,21 +12,19 @@
     "typegen": "sanity schema extract --path=./sanity/extract.json && sanity typegen generate"
   },
   "packageManager": "npm@10.8.2",
-  "npm": {
-    "overrides": {
-      "@babel/types": "7.27.7"
-    }
-  },
   "overrides": {
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@babel/types": "7.27.7"
+    "@babel/types": "7.27.7",
+    "next": "$next"
   },
   "dependencies": {
+    "@radix-ui/react-avatar": "^1.1.10",
     "@radix-ui/react-slot": "^1.2.3",
     "@radix-ui/react-toast": "^1.2.14",
     "@sanity/image-url": "^1.1.0",
     "@sanity/vision": "^3.95.0",
+    "@sentry/nextjs": "^9.35.0",
     "@uiw/react-md-editor": "^4.0.7",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -42,6 +40,7 @@
     "sanity": "^3.96.0",
     "sanity-plugin-markdown": "^5.1.1",
     "server-only": "^0.0.1",
+    "slugify": "^1.6.6",
     "styled-components": "^6.1.19",
     "tailwind-merge": "^3.3.1"
   },
